@@ -1,73 +1,138 @@
+<div align="center">
+
 # Daisuke Majima
 
-**Senior iOS / On-Device ML Engineer** — Osaka, Japan (JST, UTC+9) · Remote only · ex-Ultralytics
+**Senior iOS · On-Device ML Engineer** &nbsp;·&nbsp; ex-Ultralytics &nbsp;·&nbsp; 🇯🇵 Japan &nbsp;·&nbsp; Remote
 
-I ship LLMs and computer-vision models running **fully on-device** on iPhone, iPad, and Apple Silicon Mac. No server round-trip, no per-token API cost, no data leaving the device — lower latency, lower opex, privacy by default.
+Shipping LLMs and CV models that run **fully on-device** — iPhone · iPad · Apple Silicon Mac.<br>
+No server round-trip &nbsp;·&nbsp; No per-token cost &nbsp;·&nbsp; Privacy by default.
 
-[![Open to roles](https://img.shields.io/badge/Status-Open_to_Staff_%2F_Senior_iOS_or_Mobile_ML_roles-1b5e20?style=for-the-badge&labelColor=0d2818)](https://john-rocky.github.io)
-[![2-week sprint](https://img.shields.io/badge/Or_book-2--week_On--Device_ML_Production_Sprint-0066cc?style=for-the-badge)](https://john-rocky.github.io#services)
+[![Open to roles](https://img.shields.io/badge/Open_to-Staff%20%2F%20Senior%20iOS%20%2F%20Mobile%20ML-1b5e20?style=for-the-badge&labelColor=0d2818)](https://john-rocky.github.io)
+&nbsp;
+[![2-week sprint](https://img.shields.io/badge/Book-2--week%20On--Device%20ML%20Sprint-0066cc?style=for-the-badge)](https://john-rocky.github.io#services)
+
+</div>
 
 ---
 
 ### 📦 Featured
 
-| Repo | What it is | ★ |
-|---|---|---|
-| **[CoreML-Models](https://github.com/john-rocky/CoreML-Models)** | The de-facto iOS Core ML model zoo. Ports of YOLO, SAM, LaMa, Tesseract OCR, on-device LLM, Stable Diffusion, depth, pose, style transfer. | **1,749** |
-| [RealityKit-Sampler](https://github.com/john-rocky/RealityKit-Sampler) | Apple RealityKit framework — runnable samples covering anchors, physics, lighting, gestures, occlusion, mesh, audio. | 176 |
-| [SemanticImage](https://github.com/john-rocky/SemanticImage) | iOS image / video filter & ML utility library. Vision + CoreML + AVFoundation glue, tested in production. | 156 |
-| [CoreML-LLM](https://github.com/john-rocky/CoreML-LLM) | Run LLMs on Apple devices: CoreML / MLX / llama.cpp pathways with quantization recipes. | 130 |
-| [lama-cleaner-iOS](https://github.com/john-rocky/lama-cleaner-iOS) | iPhone / iPad on-device LaMa image-inpainting cleanup tool. | 81 |
-| [CoreML-YOLOv5](https://github.com/john-rocky/CoreML-YOLOv5) | YOLOv5 ported to iOS, with Apple Neural Engine notes. | 67 |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**134 public repos** total — see [github.com/john-rocky?tab=repositories](https://github.com/john-rocky?tab=repositories).
+#### 🧠 [CoreML-Models](https://github.com/john-rocky/CoreML-Models) — 1.7k★
+The de-facto iOS Core ML model zoo. YOLO · SAM · LaMa · OCR · LLM · Stable Diffusion · depth · pose · style transfer.
+
+</td>
+<td width="50%" valign="top">
+
+#### 🥽 [RealityKit-Sampler](https://github.com/john-rocky/RealityKit-Sampler) — 176★
+Runnable Apple RealityKit samples: anchors · physics · lighting · gestures · occlusion · mesh · audio.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+#### 🖼 [SemanticImage](https://github.com/john-rocky/SemanticImage) — 156★
+iOS image / video filter & ML utility — Vision + CoreML + AVFoundation, production-tested.
+
+</td>
+<td valign="top">
+
+#### 💬 [CoreML-LLM](https://github.com/john-rocky/CoreML-LLM) — 130★
+LLMs on Apple devices: CoreML · MLX · llama.cpp with quantization recipes.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+#### 🧽 [lama-cleaner-iOS](https://github.com/john-rocky/lama-cleaner-iOS) — 81★
+iPhone / iPad on-device LaMa image-inpainting cleanup tool.
+
+</td>
+<td valign="top">
+
+#### 🎯 [CoreML-YOLOv5](https://github.com/john-rocky/CoreML-YOLOv5) — 67★
+YOLOv5 ported to iOS, with Apple Neural Engine notes.
+
+</td>
+</tr>
+</table>
+
+<sub>+128 more public repos · <a href="https://github.com/john-rocky?tab=repositories">browse all</a></sub>
 
 ---
 
-### 🚢 What I ship for clients
+### 🚢 What I do
 
-- **iOS / Edge AI / on-device ML deployment.** PyTorch / Hugging Face / ONNX → CoreML / MLX / GGUF / ExecuTorch. Apple Neural Engine quantization (FP16 / INT8 / 4-bit), graph hand-tuning, KV-cache packing.
-- **ARKit + LiDAR spatial pipelines.** Real-time depth fusion, scene reconstruction, plane / object anchoring, RoomPlan, Vision overlay, Metal post-processing.
-- **iPad / iPhone production apps.** SwiftUI / UIKit / Combine / Swift Concurrency. 30 FPS LiDAR + on-device YOLO + on-device LLM pipelines, sub-200ms recognition latency on iPhone 15 Pro.
+Take AI models from **"works in a notebook"** to **"ships as a real iOS app."**
 
-Currently solo-lead on production iOS apps combining **ARKit + LiDAR + YOLOv8 + on-device OCR + on-device voice + multi-device backend sync** at iPad scale. Sub-200ms recognition on iPhone 15 Pro. Detailed case studies under NDA.
-
----
-
-### 🌐 Upstream open-source contributions
-
-- **Hugging Face** [`swift-transformers`](https://github.com/huggingface/swift-transformers) — Apple Silicon ML stack. 5 merged perf PRs.
-- **PyTorch** [`executorch`](https://github.com/pytorch/executorch) — on-device LLM pipeline. PRs #19246, #19247, #19252.
-- **Microsoft** [`onnxruntime`](https://github.com/microsoft/onnxruntime) — on-device graph-conversion edge cases. PR #28478.
+- **CoreML conversion + ANE optimization** — PyTorch / HF / ONNX → CoreML / MLX / GGUF / ExecuTorch. FP16 · INT8 · 4-bit. Graph hand-tuning. KV-cache packing.
+- **ARKit + LiDAR spatial pipelines** — depth fusion · scene reconstruction · plane / object anchoring · RoomPlan · Vision overlay · Metal post-processing.
+- **Production iOS apps** — SwiftUI · UIKit · Combine · Swift Concurrency. 30 FPS LiDAR + on-device YOLO + on-device LLM. Sub-200ms recognition on iPhone 15 Pro.
 
 ---
 
-### 📱 Apps on the App Store (10, under my own developer account)
+### 🌐 Upstream contributions
 
-[apps.apple.com/developer/daisuke-majima](https://apps.apple.com/us/developer/daisuke-majima/id1350309854) — **SnapMeasure** (LiDAR 3D measurement) · **Models Zoo** (on-device CoreML gallery) · **super2x** (on-device super-resolution) · **Mask2Face** (on-device face inpainting) · **AnimateU** (one-image animation) · **AIPainter** (on-device Stable Diffusion) · **Blur.** (depth-aware bokeh) · **Memosh** (on-device OCR memo) · **Tasmon** (visual task manager) · **timestone** (long-exposure photography).
+[![swift-transformers](https://img.shields.io/badge/Hugging%20Face-swift--transformers%20(5%20PRs)-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://github.com/huggingface/swift-transformers)
+[![executorch](https://img.shields.io/badge/PyTorch-executorch%20(3%20PRs)-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://github.com/pytorch/executorch)
+[![onnxruntime](https://img.shields.io/badge/Microsoft-onnxruntime%20(1%20PR)-5E5E5E?style=flat-square&logo=microsoft&logoColor=white)](https://github.com/microsoft/onnxruntime)
+
+---
+
+### 📱 10 apps on the App Store
+
+<sub>under my own developer account · [apps.apple.com/developer/daisuke-majima](https://apps.apple.com/us/developer/daisuke-majima/id1350309854)</sub>
+
+**SnapMeasure** · **Models Zoo** · **super2x** · **Mask2Face** · **AnimateU** · **AIPainter** · **Blur.** · **Memosh** · **Tasmon** · **timestone**
 
 ---
 
 ### 🛠 Stack
 
-`Swift` · `SwiftUI` · `UIKit` · `Combine` · `Swift Concurrency` · `Metal` · `CoreML` · `coremltools` · `Vision` · `VisionKit` · `ARKit` · `RealityKit` · `SceneKit` · `visionOS` · `AVFoundation` · `MLX` · `llama.cpp` / `GGUF` · `ExecuTorch` · `ONNX Runtime` · `TFLite` · `PyTorch` · `HuggingFace` · `diffusers` · `Python` · `C / C++` · `Kotlin` · `Go` · `TypeScript` · `Postgres` · `AWS` · `Firebase`
+![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/-SwiftUI-0064C5?style=flat-square&logo=swift&logoColor=white)
+![Combine](https://img.shields.io/badge/-Combine-CB3837?style=flat-square&logo=swift&logoColor=white)
+![CoreML](https://img.shields.io/badge/-CoreML-000000?style=flat-square&logo=apple&logoColor=white)
+![ARKit](https://img.shields.io/badge/-ARKit-007ACC?style=flat-square&logo=apple&logoColor=white)
+![RealityKit](https://img.shields.io/badge/-RealityKit-007ACC?style=flat-square&logo=apple&logoColor=white)
+![visionOS](https://img.shields.io/badge/-visionOS-000000?style=flat-square&logo=apple&logoColor=white)
+![Metal](https://img.shields.io/badge/-Metal-AA1B1B?style=flat-square&logo=apple&logoColor=white)
+![Vision](https://img.shields.io/badge/-Vision-007ACC?style=flat-square&logo=apple&logoColor=white)
+![MLX](https://img.shields.io/badge/-MLX-000000?style=flat-square&logo=apple&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![ONNX](https://img.shields.io/badge/-ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/-TFLite-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Postgres](https://img.shields.io/badge/-Postgres-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 ---
 
 ### 📊 GitHub
 
-![Daisuke's GitHub stats](https://github-readme-stats.vercel.app/api?username=john-rocky&show_icons=true&hide_border=true&include_all_commits=true&count_private=false&theme=default)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=john-rocky&layout=compact&hide_border=true&theme=default)
+<a href="https://github.com/john-rocky">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=john-rocky&show_icons=true&hide_border=true&include_all_commits=true&count_private=false&theme=transparent&title_color=0066cc&icon_color=0066cc" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=john-rocky&layout=compact&hide_border=true&theme=transparent&title_color=0066cc&langs_count=8" />
+</a>
 
 ---
 
 ### ✉ Contact
 
-- **Email:** rockyshikoku@gmail.com
-- **Hire-me page:** [john-rocky.github.io](https://john-rocky.github.io)
-- **2-week On-Device ML Production Sprint:** [john-rocky.github.io#services](https://john-rocky.github.io#services)
-- **LinkedIn:** [in/daisuke-majima-a07b9b215](https://www.linkedin.com/in/daisuke-majima-a07b9b215/)
-- **X:** [@JackdeS11](https://twitter.com/JackdeS11)
-- **Medium:** [@rockyshikoku](https://medium.com/@rockyshikoku)
+📧 [rockyshikoku@gmail.com](mailto:rockyshikoku@gmail.com) &nbsp;·&nbsp; 🌐 [john-rocky.github.io](https://john-rocky.github.io) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/daisuke-majima-a07b9b215/) &nbsp;·&nbsp; 𝕏 [@JackdeS11](https://twitter.com/JackdeS11) &nbsp;·&nbsp; ✍ [Medium](https://medium.com/@rockyshikoku)
 
-Async-first, plain text is fine. I reply within a day.
+<sub>Async-first · Plain text fine · Reply within a day</sub>
+
+---
+
+<sub><i>Currently solo-lead on production iOS apps combining ARKit + LiDAR + YOLOv8 + on-device OCR + on-device voice + multi-device backend sync at iPad scale. Detailed case studies under NDA.</i></sub>
