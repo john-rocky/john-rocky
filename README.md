@@ -25,5 +25,5 @@ Small, well-scoped pieces are welcome as well as longer engagements.
 📧 **rockyshikoku@gmail.com** — I reply within a day
 🌐 **[john-rocky.github.io](https://john-rocky.github.io/)** — shipped apps, past work, details
 
-Freelance through **Pebble Inc.** (Osaka, JST) — currently taking projects. Also open to full-time roles.
+Freelance through **Pebble Inc.** (Osaka, JST) — currently taking projects.
 Remote; occasional travel is fine.
