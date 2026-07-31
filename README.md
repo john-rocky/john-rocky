@@ -4,6 +4,8 @@ I take ML / CV / VLM models and make them run on phones, tablets and AR headsets
 
 **[CoreML-Models](https://github.com/john-rocky/CoreML-Models)** ⭐1.8k · **[LiteRT-Models](https://github.com/john-rocky/LiteRT-Models)** · **[VLMKit](https://github.com/john-rocky/VLMKit)** · ex-**Ultralytics** (YOLO on mobile) · 10 apps on the App Store · Osaka, Japan (JST)
 
+120+ converted models on **[Hugging Face](https://huggingface.co/mlboydaisuke)** · member of **[litert-community](https://huggingface.co/litert-community)** (Google LiteRT) · **[DeviceMark](https://devicemark.github.io/)** — on-device LLM leaderboard for iPhone
+
 ---
 
 #### What people hire me for
