@@ -1,10 +1,12 @@
-### Daisuke Majima — on-device AI, iOS & Android
+### Daisuke Majima (MLBoy) — on-device AI, iOS & Android
 
-I take ML / CV / VLM models and make them run on phones, tablets and AR headsets — fast, small, and fully offline.
+I take ML / CV / VLM models and make them run on phones, tablets and AR headsets — fast, small, and fully offline. Writing as **MLBoy** on [Zenn](https://zenn.dev/mlboydaisuke), [Medium](https://medium.com/@rockyshikoku) and [Qiita](https://qiita.com/john-rocky) — same person everywhere.
+
+**[coreai-model-zoo](https://github.com/john-rocky/coreai-model-zoo)** — 60+ verified Core AI models · **[CoreAIKit](https://github.com/john-rocky/coreai-kit)** — run them in one line of Swift · **[devicemark](https://devicemark.github.io/)** — on-device LLM leaderboard for iPhone · **[The Art of Core AI](https://zenn.dev/mlboydaisuke/books/coreai-textbook)** — the textbook (JA, free)
 
 **[CoreML-Models](https://github.com/john-rocky/CoreML-Models)** ⭐1.8k · **[LiteRT-Models](https://github.com/john-rocky/LiteRT-Models)** · **[VLMKit](https://github.com/john-rocky/VLMKit)** · ex-**Ultralytics** (YOLO on mobile) · 10 apps on the App Store · Osaka, Japan (JST)
 
-120+ converted models on **[Hugging Face](https://huggingface.co/mlboydaisuke)** · member of **[litert-community](https://huggingface.co/litert-community)** (Google LiteRT) · **[DeviceMark](https://devicemark.github.io/)** — on-device LLM leaderboard for iPhone
+250+ converted models on **[Hugging Face](https://huggingface.co/mlboydaisuke)** · member of **[litert-community](https://huggingface.co/litert-community)** (Google LiteRT) and **[coreai-community](https://huggingface.co/coreai-community)**
 
 ---
 
